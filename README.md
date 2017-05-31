@@ -1,13 +1,13 @@
 # Magnolia Advanced Tutorial - that uses Magnolia CMS to teach Magnolia CMS 
 
-> [Magnolia Tutorial to appreciate the inner working of Magnolia CMS]
+[Magnolia Tutorial to appreciate the inner working of Magnolia CMS]
 
 ## Features
-> [Tutorial includes hands on tryout along with business rationale for adopting Magnolia CMS]
+[Tutorial includes hands on tryout along with business rationale for adopting Magnolia CMS]
 
 
 ## Usage
-> [Install the advanced-tutorial-magnolia module from cli:
+[Install the advanced-tutorial-magnolia module from cli:
 mgnl install advanced-tutorial-magnolia
 This makes a page Template caled AdvancedTutorial available.
 Use the page template to create a new page. Choose the tutorial content in the Dialog configuration.
