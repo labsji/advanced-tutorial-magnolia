@@ -1,0 +1,4 @@
+title: voiceclock
+renderType: freemarker
+templateScript: /advanced-tutorial-magnolia/templates/components/voiceclock.ftl
+dialog: advanced-tutorial-magnolia:components/voiceclock
