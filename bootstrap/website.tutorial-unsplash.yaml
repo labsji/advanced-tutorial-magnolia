@@ -8,25 +8,26 @@
     of this lesson.
 
     By following the tutorial, the learner creates a light module and configures the
-    associated contentType, app and templates so that the component could be used
-    effortlessly by content Authors.'
+    associated contentType, app and templates. Specifically,   page template component
+    for UnSplash photo is crafted  so that the component could be used effortlessly
+    by content Authors.'
   'hideInNav': false
   'jcr:primaryType': 'mgnl:page'
   'jcr:uuid': 'b541cddd-b38d-4e27-a39b-028e40a621c4'
   'mgnl:created': 2023-02-09T19:38:52.472+05:30
   'mgnl:createdBy': 'superuser'
-  'mgnl:lastModified': 2023-02-09T22:39:47.738+05:30
+  'mgnl:lastModified': 2023-02-10T16:30:03.172+05:30
   'mgnl:lastModifiedBy': 'superuser'
   'mgnl:template': 'mtk2:pages/basic'
   'navigationTitle': 'LightDev Unsplash Image Component'
   'noCache': false
-  'title': 'Magnolia Light Development: Simple Component Step by Step'
+  'title': 'Magnolia Light Development: A Simple Page Component Step by Step'
   'main':
     'jcr:primaryType': 'mgnl:area'
     'jcr:uuid': '354ff4d9-1d96-4ef6-8091-d7d0012cf0b2'
     'mgnl:created': 2023-02-09T19:39:17.285+05:30
     'mgnl:createdBy': 'superuser'
-    'mgnl:lastModified': 2023-02-09T22:39:47.738+05:30
+    'mgnl:lastModified': 2023-02-10T16:30:03.172+05:30
     'mgnl:lastModifiedBy': 'superuser'
     '0':
       'headline': 'Light Development'
@@ -36,7 +37,7 @@
       'jcr:uuid': '803b196f-4774-4766-82df-b82b3c5b43e7'
       'mgnl:created': 2023-02-09T20:39:05.009+05:30
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastModified': 2023-02-09T20:39:05.009+05:30
+      'mgnl:lastModified': 2023-02-10T12:09:37.313+05:30
       'mgnl:lastModifiedBy': 'superuser'
       'mgnl:template': 'mtk2:components/textImage'
       'text': '<p>Presentation is an important functionality of Content Management
@@ -51,31 +52,38 @@
         Instead of Java code, simply configure YANL files to acheive presentation
         awesomeness.</p>
 
-
-        <p>&nbsp;</p>
-
         '
     '00':
-      'headline': 'UnSplash Image Integration'
+      'headline': 'Integrating the UnSplash Dataset: Choosing UnSplash photos made
+        easier'
       'headlineLevel': 'small'
       'imagePosition': 'below'
       'jcr:primaryType': 'mgnl:component'
       'jcr:uuid': '8b3f223d-f111-488e-bb09-d7ba6e54c762'
       'mgnl:created': 2023-02-09T20:53:23.081+05:30
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastModified': 2023-02-09T20:53:23.081+05:30
+      'mgnl:lastModified': 2023-02-10T12:33:35.401+05:30
       'mgnl:lastModifiedBy': 'superuser'
       'mgnl:template': 'mtk2:components/textImage'
       'text': '<p>UnNsplash makes a huge variety of interesting photos/images available
-        for authors to use. The UnSplash team strives to reduce&nbsp; friction in
-        using the photo images. The UnSplash API is a convenient way to incorporating
-        UnSplash images. The full photo collection is also available as a dataset,
-        opening the possiblity of natively integrating the UnSplash dataset on to
-        any CMS.</p>
+        for anyone to use. The UnSplash team strives to reduce&nbsp; friction in using
+        the photo images.</p>
 
 
-        <p>Without further ado, lets jump into incorporating this dataset into Magnolia
-        using Light Development premitives.</p>
+        <p>The UnSplash API is one convenient way of incorporating UnSplash images
+        in any content.</p>
+
+
+        <p>The full photo collection is also available as a dataset, opening the possiblity
+        of natively integrating the UnSplash dataset on to any CMS. Using the UnSplash
+        dataset within Magnolia is simple with light development. Once the dataset
+        is imported, making the photos as page component makes it very convenient
+        for the Authors and Editors to use the UnSplash photos.</p>
+
+
+        <p>Without further ado, lets learn the detailed steps involved in incorporating
+        this content dataset. And exposing the content as configurable page template
+        component.</p>
 
         '
     '01':
@@ -86,10 +94,19 @@
       'jcr:uuid': '383115c9-3294-42c7-a28a-1d37b0d406c7'
       'mgnl:created': 2023-02-09T20:57:18.646+05:30
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastModified': 2023-02-09T20:57:18.647+05:30
+      'mgnl:lastModified': 2023-02-10T14:16:52.940+05:30
       'mgnl:lastModifiedBy': 'superuser'
       'mgnl:template': 'mtk2:components/textImage'
-      'text': '<p>mgnl create-light-module magnolis-dam-unsplash</p>
+      'text': '<p>From your lightmodules folder execute the command:</p>
+
+
+        <p><strong>mgnl create-light-module magnolia-dam-unsplash</strong></p>
+
+
+        <p>This will create a light module under the magnolia-dam-unsplash folder.</p>
+
+
+        <p>Change directory to that folder.</p>
 
 
         <p>&nbsp;</p>
@@ -103,21 +120,49 @@
       'jcr:uuid': '7178a3b0-6f1b-433d-8a81-3044217f16d6'
       'mgnl:created': 2023-02-09T21:00:11.506+05:30
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastModified': 2023-02-09T21:00:11.506+05:30
+      'mgnl:lastModified': 2023-02-10T14:50:30.597+05:30
       'mgnl:lastModifiedBy': 'superuser'
       'mgnl:template': 'mtk2:components/textImage'
-      'text': '<p>mgnl create-content-type unsplash</p>
+      'text': '<p>In this step we create contentType to reflect the <a href="https://github.com/unsplash/datasets/blob/master/DOCS.md">field
+        names and data type of the UnSplash dataset</a>.</p>
+
+
+        <p><strong>mgnl create-content-type --app unsplash</strong></p>
+
+
+        <p>We also create a content App to manage the content. The --app option above
+        effect the app creation.</p>
+
+
+        <p>This will also initialize a workspace called unsplash. There will be a
+        notification to that effect in the Author instance.</p>
+
+
+        <p>In the contentType folder, find the unsplash.yaml. Edit it such that the
+        field types reflect the <a href="https://github.com/unsplash/datasets/blob/master/DOCS.md">field
+        names in the UnSplash dataset</a>.</p>
+
+
+        <p>Open the Unsplash App in the Author instance and verify that the fields
+        are indeed reflecting the fields in the UnSplash dataset. For now, to keep
+        it simple, we make all the fields as type: String.</p>
+
+
+        <p>The edited file look likes:</p>
+
+
+        <p>TODO: Link to file in DAM/Resource</p>
 
         '
     '03':
-      'headline': 'Import Content Using Groovy Script'
+      'headline': 'Step3: Import Content Using Groovy Script'
       'headlineLevel': 'small'
       'imagePosition': 'below'
       'jcr:primaryType': 'mgnl:component'
       'jcr:uuid': 'f674fd84-f0fe-4c8f-9223-2d1ea16b1cdf'
       'mgnl:created': 2023-02-09T22:25:37.693+05:30
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastModified': 2023-02-09T22:25:37.693+05:30
+      'mgnl:lastModified': 2023-02-10T15:49:27.415+05:30
       'mgnl:lastModifiedBy': 'superuser'
       'mgnl:template': 'mtk2:components/textImage'
       'text': '<p>For learning purpose, a tiny subset of the dataset is provided so
@@ -125,12 +170,46 @@
         nititygrities.&nbsp;</p>
 
 
+        <p>For content that is exported via Magnolia, it is in xml or yaml format.
+        It is easy to import the content in the UI Action Bar.</p>
+
+
+        <p>The UnSplash dataset is in Tab Seperated Value(tsv) format. A simple groovy
+        script is handy for the import.</p>
+
+
+        <p>Please see unsplash-schema,tsv and unsplash-tiny-subset-photos.tsv for
+        the content source we are going to use in this module.</p>
+
+
+        <p>For crafting and testing the import script, we use the Groovy App.</p>
+
+
+        <p>In the Author instance open the Groovy App under Dev.</p>
+
+
+        <p>Create a folder and name it unsplash.</p>
+
+
+        <p>And create a script and rename it as importphotos.groovy TODO: Link to
+        file.</p>
+
+
+        <p>In the script first we are parsing the schema.</p>
+
+
+        <p>Then we process the content one line at a time. As part of the processing,
+        we create a JCR node of type mgnl:unsplash ( The content type we created in
+        the step above).And fill up the properties of the node with values from the
+        tsv data file.</p>
+
+
         <p>For preview, a thumbnail image is downloaded and stored in the JCR. Again
         using a Groovy script.</p>
 
 
         <p>Then we export the JCR workspace as xml. And save that file in the bootstrap
-        folder of the litht module.</p>
+        folder of the light module.</p>
 
         '
     '04':
@@ -141,10 +220,47 @@
       'jcr:uuid': '5dd3b091-2c3e-4faf-860f-3806c6ca07f0'
       'mgnl:created': 2023-02-09T22:31:46.027+05:30
       'mgnl:createdBy': 'superuser'
-      'mgnl:lastModified': 2023-02-09T22:31:46.027+05:30
+      'mgnl:lastModified': 2023-02-10T16:30:03.172+05:30
       'mgnl:lastModifiedBy': 'superuser'
       'mgnl:template': 'mtk2:components/textImage'
       'text': '<p>mgnl create-component -a unsplash-photo</p>
+
+
+        <p>This will create a prototype based component definition file in yaml format,
+        and a component template script in freemarker templating langauge(ftl) format,
+        and a dialog definition file in yaml format:</p>
+
+
+        <p><em>templates/components/unsplash-photo.yaml</em></p>
+
+
+        <p><em>templates/components/unsplash-photo.ftl</em></p>
+
+
+        <p><em>dialog/components/unsplash-photo.yaml</em></p>
+
+
+        <p>We edit these files to suit our purpose.</p>
+
+
+        <p>First we edit the dialog definition.</p>
+
+
+        <p>We create a LinkField to reference the content in the unsplash workspace.</p>
+
+
+        <p>We add two textFields for attribution text and attribution link.</p>
+
+
+        <p>The component definition could be left as is. It just references the component
+        template and the dialog.</p>
+
+
+        <p>The component template is to be modified appropriaately to display the
+        image from the &#39;photo_image_url&#39; property of the photo content.</p>
+
+
+        <p>How exactly to do that is a step in itself( Step 6)</p>
 
         '
     '05':
