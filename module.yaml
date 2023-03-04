@@ -1,0 +1,8 @@
+version: 0.0.7
+displayName: Light Dev Turorial
+dependencies:
+  core:
+    version: 6.2/*
+  content-importer:
+  magnolia-dam-unsplash:
+    optional: true

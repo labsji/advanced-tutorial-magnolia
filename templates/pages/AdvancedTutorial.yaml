@@ -1,4 +1,0 @@
-title: AdvancedTutorial
-renderType: freemarker
-templateScript: /advanced-tutorial-magnolia/templates/pages/AdvancedTutorial.ftl
-dialog: advanced-tutorial-magnolia:pages/AdvancedTutorial

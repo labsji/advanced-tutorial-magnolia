@@ -1,19 +1,22 @@
-# Magnolia Advanced Tutorial - that uses Magnolia CMS to teach Magnolia CMS 
+# Magnolia Advanced Tutorial - a light module that uses Magnolia CMS to teach Magnolia light development. 
 
-[Magnolia Tutorial to appreciate the inner working of Magnolia CMS]
+[Tutorial to appreciate the usefulness of light development in Magnolia CMS]
 
 ## Features
-[Tutorial includes hands on tryout along with business rationale for adopting Magnolia CMS]
+[Tutorial explores light development by creating a simple component viz., a page template component that facilitates inclusion of UnSplash photos in a Magnolia content page]
 
 
 ## Usage
 [Install the advanced-tutorial-magnolia module from cli:
 mgnl install advanced-tutorial-magnolia
-This makes a page Template caled AdvancedTutorial available.
-Use the page template to create a new page. Choose the tutorial content in the Dialog configuration.
-Right now, the content is not polished, and only two of the topics have content.
-Feedback, suggestions to improve the content most welcome!
-Happy Learning!]
+
+This (also) installs a content Bootstrap-tool App.
+You may have to use the tool to manually induct the tutorial content( bootstrap).
+Hint: Open the Bootstrap-tool app, enter the absolute file system path of website.tutorial-unsplash.xml file at the bootstrap folder of the module.
+This inducts the tutorial page.
+
+Also bootstrap dam.tutorial.xml by entering 'dam' instead of 'website' for repository field. 
+]
 
 
 ## Information on Magnolia CMS
@@ -37,4 +40,4 @@ MIT
 
 Magnolia, https://magnolia-cms.com
 
-Balaji Sowmyanarayanan, @labsji
+Balaji Sowmyanarayanan: labsji
