@@ -11,7 +11,10 @@
 mgnl install advanced-tutorial-magnolia
 
 This (also) installs a content Bootstrap-tool App.
-You may have to use the tool to manually induct the tutorial content( bootstrap).
+The Bootstrap-tool takes a file (Absolute) path and a repository name and creates a Content Import Manual Task.
+Open the Tasks App and complete the Import.
+
+You may have to use the tool to manually induct the tutorial content.
 Hint: Open the Bootstrap-tool app, enter the absolute file system path of website.tutorial-unsplash.xml file at the bootstrap folder of the module.
 This inducts the tutorial page.
 
