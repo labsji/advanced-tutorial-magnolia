@@ -24,9 +24,13 @@
   "contributors": [
     "Magnolia (https://magnolia-cms.com/)",
     "Balaji Sowmyanarayanan - labsji"
-    ],  "license": "MIT",
+  ],
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/labsji/advanced-tutorial-magnolia"
   },
-  "homepage": "https://github.com/labsji/advanced-tutorial-magnolia"
+  "homepage": "https://github.com/labsji/advanced-tutorial-magnolia",
+  "dependencies": {
+    "npm-pack": "^1.0.0"
+  }
 }
