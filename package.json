@@ -1,0 +1,30 @@
+{
+  "name": "advanced-tutorial-magnolia",
+  "version": "0.0.3",
+  "description": "Magnolia CMS tutorial focusing on light development in 6.2 +: How view centric UI/UX simplifies a DXP",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/labsji/advanced-tutorial-magnolia"
+  },
+  "keywords": [
+    "magnolia-light-module",
+    "magnolia-component",
+    "magnolia-tutorial",
+    "magnolia-unsplash-integration",
+    "magnolia-content-app",
+    "magnolia-contentType",
+    "magnolia-decorations-howto",
+    "magnolia-config-reuse-howto",
+    "magnolia-advanced-tutorial",
+    "magnolia-dogfood-tutorial",
+    "magnolia-dogfood-tutorial-series"
+  ],
+  "contributors": [
+    "Magnolia (https://magnolia-cms.com/)",
+    "Balaji Sowmyanarayanan - labsji"
+    ],  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/labsji/advanced-tutorial-magnolia"
+  },
+  "homepage": "https://github.com/labsji/advanced-tutorial-magnolia"
+}
