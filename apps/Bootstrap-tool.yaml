@@ -20,6 +20,25 @@ subApps:
                      properties:
                          repository:
                             defaultValue: website 
+                            $type: comboBoxField
+                            datasource:
+                                  $type: optionListDatasource
+                                  options:
+                                    - name: website
+                                      label: website
+                                      value: website
+                                    - name: dam
+                                      label: dam
+                                      value: dam
+                                    - name: unsplash
+                                      label: unsplash
+                                      value: unsplash
+                                    - name: scripts
+                                      label: scripts
+                                      value: scripts
+                                    - name: config
+                                      label: config
+                                      value: config
                   name:
                      defaultValue: content
                      $type: hiddenField 
@@ -45,12 +64,15 @@ subApps:
                   ocm_classname:
                      defaultValue: info.magnolia.task.Task
                      $type: hiddenField 
-                  skippable: 
-                     $type: hiddenField 
                   priority:
                      defaultValue: 0
                      $type: hiddenField 
                      type: java.lang.Integer
                      converterClass: com.vaadin.data.converter.StringToIntegerConverter
+                  skippable: 
+                     $type: hiddenField 
+                     defaultValue: false
+                     type: java.lang.Boolean 
+                     converterClass: com.vaadin.data.converter.StringToBooleanConverter
 
 
