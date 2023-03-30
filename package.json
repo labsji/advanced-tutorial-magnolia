@@ -1,6 +1,6 @@
 {
   "name": "advanced-tutorial-magnolia",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Magnolia CMS tutorial focusing on light development in 6.2 +: How view centric UI/UX simplifies a DXP",
   "repository": {
     "type": "git",
